@@ -1,0 +1,4 @@
+## Interface: 80200
+## Title: RemoveSelectionCircle
+
+core.lua
