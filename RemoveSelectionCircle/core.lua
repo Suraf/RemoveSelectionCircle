@@ -2,12 +2,12 @@
 -- credits to Ketho (thanks)
 -- modified to apply to the target (remove the selection circle from the NPCs) to take better screenshots for Wowpedia
 
+-- todo: add options
+
 local f = CreateFrame("Frame")
 
 function f:OnEvent(event)
-	if not IsInGroup() then -- not in raid/battleground
-		SetCVar("ObjectSelectionCircle", UnitIsUnit("target", "target") and 0 or 1)
-	end
+	SetCVar("ObjectSelectionCircle", UnitIsUnit("target", "target") and 0 or 1)
 end
 
 f:RegisterEvent("PLAYER_TARGET_CHANGED")
