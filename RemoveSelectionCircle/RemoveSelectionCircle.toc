@@ -1,6 +1,6 @@
-## Interface: 80300
-## Title: RemoveSelectionCircle |cFF69CCF01.0.1|r
-## Version: 1.0.1
+## Interface: 90205
+## Title: RemoveSelectionCircle |cFF69CCF01.0.3|r
+## Version: 1.0.3
 ## Notes: Removes the selection circle from NPCs for easier screenshots (for use on Wowpedia).
 ## Author: Surafbrov
 
